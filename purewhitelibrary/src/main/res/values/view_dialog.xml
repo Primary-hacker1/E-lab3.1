@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    //透明
+    <style name="BaseDialog" parent="Theme.AppCompat.Dialog">
+        <!-- window半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 显示在activity上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 没有边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- window无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--  布局透明  -->
+        <item name="android:background">@android:color/transparent</item>
+        <!--  window透明  -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <!-- 无色 -->
+    <style name="BaseDialogNo" parent="BaseDialog">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+
+
+
+
+    <style name="LeftWindowAnimStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pure_enter_left_p_300</item>
+        <item name="android:windowExitAnimation">@anim/pure_exit_left_p_300</item>
+    </style>
+
+    <style name="RightWindowAnimStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pure_enter_right_p_300</item>
+        <item name="android:windowExitAnimation">@anim/pure_exit_right_p_300</item>
+    </style>
+
+    <style name="TopWindowAnimStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pure_enter_top_p_300</item>
+        <item name="android:windowExitAnimation">@anim/pure_exit_top_p_300</item>
+    </style>
+
+    <style name="BottomWindowAnimStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pure_enter_bottom_p_300</item>
+        <item name="android:windowExitAnimation">@anim/pure_exit_bottom_p_300</item>
+    </style>
+
+</resources>

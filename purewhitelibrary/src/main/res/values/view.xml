@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="BottomMenu">
+        //选中图片
+        <attr name="img_check_true" format="reference"></attr>
+        //为选中图片
+        <attr name="img_check_false" format="reference"></attr>
+        //图片大小
+        <attr name="img_size" format="dimension"></attr>
+        //选中文字颜色
+        <attr name="text_check_true" format="color"></attr>
+        //未选中文字颜色
+        <attr name="text_check_false" format="color"></attr>
+        //文字大小
+        <attr name="text_size" format="dimension"></attr>
+        //设置初始值
+        <attr name="text_content" format="string"></attr>
+        //是否开启动画
+        <attr name="anim_position" format="integer"></attr>
+        //图片距离文字距离
+        <attr name="center_distance" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="BottomLayout">
+        //默认选中哪个
+        <attr name="checkPosition" format="integer"></attr>
+    </declare-styleable>
+
+    
+    <declare-styleable name="NoSlideViewPager">
+        <attr name="slide" format="boolean"></attr>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ScrollSwipeLayout">
+        <attr name="scroll_swipe" format="boolean"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ScrollPtrLayout">
+        <attr name="scroll_ptr" format="boolean"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr name="maxHeight" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="RatioImageView">
+        <attr name="high" format="integer"></attr>
+        <attr name="wide" format="integer"></attr>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="PureViewPager">
+        //循环滑动事件
+        <attr name="autoTime" format="integer"></attr>
+        //是否循环滑动
+        <attr name="autoPlay" format="boolean"></attr>
+    </declare-styleable>
+
+
+</resources>

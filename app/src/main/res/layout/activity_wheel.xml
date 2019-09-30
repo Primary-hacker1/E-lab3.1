@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/actionbar_one" android:id="@+id/title_bar_layout"></include>
+<!--        <com.purewhite.ywc.frame.wheel.base.MorePickerView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:wheelNum="4"-->
+<!--            app:cyc_scroll="true"-->
+<!--            app:wheel_textsize="15"-->
+<!--            android:id="@+id/more_picker_view">-->
+<!--        </com.purewhite.ywc.frame.wheel.base.MorePickerView>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:layout_margin="10dp"
+            android:background="@color/write"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:id="@+id/sure"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:id="@+id/text_view" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_view">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</layout>

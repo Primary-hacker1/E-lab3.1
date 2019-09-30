@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/actionbar_one"
+            android:id="@+id/title_bar_layout" />
+
+        <include layout="@layout/view_line"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/write"
+            android:text="打开相册存在拍照"
+            android:id="@+id/open_one"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:onClick="onClickView"/>
+        <include layout="@layout/view_line"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/write"
+            android:text="打开相册不存在拍照"
+            android:id="@+id/open_two"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:onClick="onClickView"/>
+        <include layout="@layout/view_line"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/write"
+            android:text="打开相册不存在拍照,续航"
+            android:id="@+id/open_three"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:onClick="onClickView"/>
+
+    </LinearLayout>
+</layout>

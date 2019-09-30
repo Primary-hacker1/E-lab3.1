@@ -1,0 +1,2 @@
+include ':app', ':purewhitelibrary', ':rlsdklibrary', ':jar', ':jhar', ':jhar2'
+rootProject.name='pro'

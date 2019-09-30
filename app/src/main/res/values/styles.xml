@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme" parent="PureBase"></style>
+
+    <style name="StartTheme" parent="AppTheme">
+        <!--&lt;!&ndash; windown布局页面背景颜色 &ndash;&gt;-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+    </style>
+
+
+
+
+    <declare-styleable name="MorePickerView">
+        <attr name="wheelNum" format="integer"></attr>
+        <attr name="cyc_scroll" format="boolean"></attr>
+        <attr name="wheel_textsize" format="integer"></attr>
+    </declare-styleable>
+
+
+</resources>
